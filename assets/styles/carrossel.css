@@ -97,5 +97,43 @@
         width: 50%;
         margin: 2rem auto;
     }
+}
 
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        margin: 0 15vw 3rem 15vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 0 0 1rem 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .descricao {
+        margin-right: 1rem;
+    }
+
+    .descricao img {
+        margin-bottom: .7rem;
+    }
+
+    .descricao__titulo {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .descricao__texto {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3rem;
+    }
 }
